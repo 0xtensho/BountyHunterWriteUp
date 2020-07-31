@@ -37,7 +37,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 43.86 seconds
 ```
 
-Webpage telling us we have to hack this room... I downloaded the picture and tried steghide against it but nothing here.<br>
+Webpage is telling us we have to hack this room... I downloaded the picture in the background and tried steghide against it but nothing here.<br>
 Nothing else here even after a gobuster scan.
 
 # FTP
